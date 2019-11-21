@@ -96,15 +96,15 @@
 //
 #define HEATER_0_PIN       23   // (extruder)
 #define HEATER_BED_PIN     18   // (bed)
-
+/*
 #if !defined(FAN_PIN)
   #define FAN_PIN          2    // Works for Panelolu2 too
 #endif
-
+*/
 //
 // Enable Pins
 //
-#define X_ENABLE_PIN       5
-#define Y_ENABLE_PIN       5
-#define Z_ENABLE_PIN       5
-#define E0_ENABLE_PIN      13
+#define X_ENABLE_PIN       13
+#define Y_ENABLE_PIN       13
+#define Z_ENABLE_PIN       13
+#define E0_ENABLE_PIN      5
